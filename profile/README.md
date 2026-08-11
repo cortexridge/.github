@@ -19,6 +19,10 @@ CortexRidge builds software for the people who keep data systems running — dev
 We publish working notes from the operational layer: PostgreSQL, ClickHouse, MySQL, MongoDB, and what it takes to run them at production scale.
 
 <!-- BLOG:START -->
+- [Workflows in Practice: Disk Space Monitoring](https://cortexridge.com/blog/workflows-in-practice-disk-space-monitoring/) — One webhook call checks a server's disk, records the reading, alerts the customer, and archives the run. A five-node CortexBolt workflow, step by step.
+- [The Economy Of Embeddings](https://cortexridge.com/blog/pgvector-cost-economy-of-embeddings/) — An embedding has four costs, and one dwarfs the rest: RAM. Follow a single vector through its life and see where the database bill really comes from.
+- [PostgreSQL LISTEN/NOTIFY Is Not Durable — Here's the Fix with pg_durable](https://cortexridge.com/blog/postgresql-listen-notify-not-durable-pg-durable/) — PostgreSQL LISTEN/NOTIFY loses messages when nobody is listening. See how pg_durable adds durable signals and workflows that survive restarts.
+- [Fifteen years of databases, end to end](https://cortexridge.com/blog/welcome-to-cortexridge/) — Fifteen years of database platforms at AWS, Oracle, Tessell, OpenSCG, and EnterpriseDB — and how they became CortexBolt, the autonomous operations platform.
 <!-- BLOG:END -->
 
 All articles at **[cortexridge.com/blog](https://cortexridge.com/blog/)**.
