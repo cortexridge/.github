@@ -19,10 +19,10 @@ CortexRidge builds software for the people who keep data systems running — dev
 We publish working notes from the operational layer: PostgreSQL, ClickHouse, MySQL, MongoDB, and what it takes to run them at production scale.
 
 <!-- BLOG:START -->
+- [How to Reduce PostgreSQL Memory Usage and Cut Your Cloud Bill in Half](https://cortexridge.com/blog/reduce-postgresql-memory-usage-cloud-bill/) — How to reduce PostgreSQL memory usage and your cloud bill: one pooler setting took a customer from 93% memory to 50%, and from $630 to $320 a month.
 - [SQL vs PL/pgSQL in PostgreSQL: Plan Caching](https://cortexridge.com/blog/postgresql-sql-vs-plpgsql-functions-in-loops/) — SQL vs PL/pgSQL functions in PostgreSQL 16: why a SQL function is re-planned on every loop call, how to reduce plan time.
 - [ALTER FUNCTION SET work_mem: Fixing PostgreSQL Disk Spills Without a Global Change](https://cortexridge.com/blog/postgresql-alter-function-set-work-mem/) — Use PostgreSQL ALTER FUNCTION SET work_mem to stop one function's sorts spilling to disk without a global change. A production fix: 150 GB a day to 0.
 - [pgsonify: Hearing PostgreSQL Health as Elephant Sounds](https://cortexridge.com/blog/pgsonify-hear-your-postgresql-health/) — pgsonify is an experimental MIT-licensed tool that sonifies PostgreSQL health metrics as real elephant recordings. How it maps stats views to sound.
-- [Workflows in Practice: Disk Space Monitoring](https://cortexridge.com/blog/workflows-in-practice-disk-space-monitoring/) — One webhook call checks a server's disk, records the reading, alerts the customer, and archives the run. A five-node CortexBolt workflow, step by step.
 <!-- BLOG:END -->
 
 All articles at **[cortexridge.com/blog](https://cortexridge.com/blog/)**.
